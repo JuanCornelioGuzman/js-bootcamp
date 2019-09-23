@@ -8,7 +8,13 @@
 let temp = 31
 let isFreezing = temp < 32
 
-console.log(isFreezing)
+if (isFreezing) {
+    console.log('It is freezing outside!')
+}
+
+if (temp >= 100) {
+    console.log('It is way too hot!')
+}
 
 // Challenge area
 
@@ -19,9 +25,14 @@ console.log(isFreezing)
 // Print is senior value
 
 
-let age = 28
+let age = 5
 let isChild = age <= 7
 let isSenior = age >= 65
 
-console.log(isChild)
-console.log(isSenior)
+if (isChild) {
+    console.log('You\'ll get a child discount!')
+}
+
+if (isSenior) {
+    console.log('You\'ll get a senior discount!')
+}
